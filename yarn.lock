@@ -10720,6 +10720,7 @@ fsevents@^1.2.7:
     react: ^17.0.2
     react-dom: ^17.0.2
     react-scripts: 4.0.3
+    src: "link:./src"
     typescript: ^4.4.4
     web-vitals: ^1.0.1
   languageName: unknown
@@ -14583,6 +14584,12 @@ resolve@^2.0.0-next.3:
   checksum: 19d79aec211f09b99ec3099b5b2ae2f6e9cdefe50bc91ac4c69144b6d3928a640bb6ae5b3def70c2e85a2c3d9f5ec2719921e3a59d3ca3ef4b2fd1a4656a0df3
   languageName: node
   linkType: hard
+
+"src@link:./src::locator=my-app%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "src@link:./src::locator=my-app%40workspace%3A."
+  languageName: node
+  linkType: soft
 
 "ssri@npm:^6.0.1":
   version: 6.0.1
